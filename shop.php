@@ -1,3 +1,4 @@
+<?php include './data.php';?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -50,7 +51,16 @@
     </div>
     <div class="container">
         <div class="row">
-            
+            <?php foreach ($shop as $value) {?>
+              <div class="card" style="width: 18rem;">
+  <img src="<?php echo $value['img'] ?>" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><?php echo $value['title'] ?></h5>
+    <p class="card-text"><?php echo $value['price'] ?>$</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+            <?php } ?>
         </div>
     </div>
 
