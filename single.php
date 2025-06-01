@@ -1,4 +1,8 @@
-<?php include './data.php';?>
+<?php include './data.php';
+$id = $_GET['id'];
+$product = $shop[$id-1];
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -51,16 +55,24 @@
     </div>
     <div class="container">
         <div class="row">
-            <?php foreach ($shop as $value) { ?>
-              <div class="card" style="width: 18rem;">
-  <img src="<?php echo $value['img'] ?>" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"><?php echo $value['title'] ?></h5>
-    <p class="card-text"><?php echo $value['price'] ?>$</p>
-    <a href="./single.php?id=<?php echo $value['id']; ?>" class="btn btn-primary">Go somewhere</a>
+
+
+        <div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="<?php echo $product['img']; ?>" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><?php echo $product['title']; ?></h5>
+        <p class="card-text">$<?php echo $product['price']; ?></p>
+        <p class="card-text"><?php echo $product['description'] ?></p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
   </div>
 </div>
-            <?php } ?>
+
         </div>
     </div>
 
