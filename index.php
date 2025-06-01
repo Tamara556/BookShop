@@ -53,13 +53,13 @@
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://i.pinimg.com/736x/e8/02/e3/e802e306e14612b03c1d645cc1dfa2de.jpg" class="d-block w-100" alt="...">
+      <img src="https://i.pinimg.com/736x/f0/98/bf/f098bfa21d0e66875a012ba44c867c75.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://i.pinimg.com/736x/05/c3/e6/05c3e660cb393550d20430ae1bf73dcb.jpg" class="d-block w-100" alt="...">
+      <img src="https://i.pinimg.com/736x/73/b1/c4/73b1c42784fdca287a34367d6ac95f40.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://i.pinimg.com/736x/c0/84/db/c084dbf104bbf5747b0cdf672264aed2.jpg" class="d-block w-100" alt="...">
+      <img src="https://i.pinimg.com/736x/86/5b/f2/865bf2c88b80d2a6ac020fcf96316614.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -73,6 +73,7 @@
 </div>
         </div>
     </div>
+    <div class="container"> <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <div class="col-md-4 d-flex align-items-center"> <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> </div> <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> </ul> </footer> </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   </body>
